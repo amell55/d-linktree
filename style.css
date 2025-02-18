@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Indie Flower", serif;
+  font-optical-sizing: auto;
+  position: relative;
+  background-image: url(img/bg2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  inset: 0;
+}
+
+section main {
+  padding: 100px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+section main img {
+  width: 100px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  box-shadow: 0 0 5px 2px rgb(93, 176, 253);
+}
+
+section main h2 {
+  font-weight: 900;
+  color: rgb(255, 238, 0);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+section main a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(93, 176, 253);
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px 0.1px #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+section main a:hover {
+  background-color: black;
+  color: yellow;
+}
+
+section main a i {
+  font-size: 1.33em;
+}
+
+section footer p {
+  color: rgb(0, 0, 0);
+  font-size: 0.7em;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #fffdfd;
+}
+
+section footer p a {
+  color: rgb(30, 255, 0);
+  font-weight: 600;
+  text-decoration: none;
+}
